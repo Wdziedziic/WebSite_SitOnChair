@@ -1,0 +1,558 @@
+
+   /* background-color:rgb(39, 199, 171)'
+   rgb(161, 161, 162)
+   rgb(247, 247, 247)*/
+   *{
+       margin: 0;
+       padding: 0;
+       font-family: 'Lato', sans-serif;
+   }
+
+   .center{
+       width:1200px;
+       margin: 0 auto;
+   }
+
+   header{
+       background-color: black;
+       min-height: 50px;
+       display: flex;
+       flex-direction: row;
+       justify-content: space-between;
+       color: white;
+       align-items: center;
+       font-weight: bolder;
+   }
+   .head{
+       display: flex;
+       flex-direction: row;
+       justify-content: space-between;
+       color: white;
+       align-items: center;
+       font-size: 20px;
+   }
+
+   .logo{
+       display:flex;
+   }
+
+   .logo>div{
+       margin-left: 10px;
+   }
+
+   .logo>.logo1{
+       margin: 0;
+   }
+
+   .logo2{
+       color: rgb(39, 199, 171);
+   }
+
+   .menu{
+       list-style: none;
+       display: flex;
+
+   }
+
+   .list{
+       margin-left: 40px;
+   }
+
+   .menu > li:first-of-type{
+       margin:0;
+   }
+   .roll{
+       list-style: none;
+   }
+
+   .menu > li > ul {
+       display:none;
+       border:3px dashed #000;
+   }
+
+   .menu > li:hover > ul {
+       display:block;
+       position: absolute;
+       top:60px;
+       background-color: black;
+       padding: 10px;
+   }
+
+   .gradient {
+       height: 500px;
+       background: #f7f7f7;
+       background: -moz-linear-gradient(top, #f7f7f7 61%, #f7f7f7 61%, #bfbfc1 100%, #a1a1a2 100%);
+       background: -webkit-linear-gradient(top, #f7f7f7 61%,#f7f7f7 61%,#bfbfc1 100%,#a1a1a2 100%);
+       background: linear-gradient(to bottom, #f7f7f7 61%,#f7f7f7 61%,#bfbfc1 100%,#a1a1a2 100%);
+       filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7f7f7', endColorstr='#a1a1a2',GradientType=0 );
+       display: flex;
+       align-items: center;
+   }
+
+   .chair{
+       width: 705px;
+       height: 500px;
+   }
+
+   .begin{
+       display: flex;
+       flex-direction: row;
+       height: 500px;
+       align-items: center;
+   }
+   .title{
+       display: flex;
+       flex-direction: row;
+       justify-content:center ;
+       height: auto;
+       margin-bottom: 25px;
+       font-size: 30px;
+   }
+   .text{
+       width: 50%;
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+   }
+   h2{
+       margin-left: 15px;
+   }
+
+   h2:first-of-type{
+       margin: 0;
+   }
+
+   h2:nth-of-type(2){
+       color: rgb(39, 199, 171);
+   }
+
+   h2:nth-of-type(4){
+       color: rgb(39, 199, 171);
+   }
+
+   .lorem{
+       margin-bottom: 25px;
+       text-align: center;
+   }
+
+   .button{
+       background-color: rgb(39, 199, 171);
+       border-radius: 15px;
+       padding: 15px 40px;
+       color: white;
+       font-size: 22px;
+   }
+
+   .second{
+       height: 500px;
+   }
+
+   .inputs{
+       display: flex;
+       flex-direction: row;
+       justify-content: space-around;
+   }
+
+   .foto1{
+       height: 225px;
+       width: 329px;
+       background-image: url("../images/box1_img.jpg");
+       background-size: 100% 100%;
+       margin: 20px 0 0 0;
+   }
+
+   .foto2{
+       height: 225px;
+       width: 329px;
+       background-image:url("../images/box2_img.jpg");
+       background-size: 100% 100%;
+       margin: 20px 0;
+   }
+
+   .foto3{
+       height: 250px;
+       width: 329px;
+       border: 2px solid black;
+       margin: 20px 0 0 0;
+       box-sizing: border-box;
+   }
+
+   /*SECTION Two */
+
+
+
+   .section2 {
+       width: 100%;
+       height: 350px;
+       display: inline-block;
+   }
+
+   #margarita, #clair {
+       width: 320px;
+   }
+
+   .section2img1, .section2img2 {
+       display: inline-block;
+       position: relative;
+       z-index: 1;
+       padding-right: 25px;
+       padding-top: 25px;
+       margin-left: 50px;
+   }
+
+   .section2title {
+       width: 300px;
+       height: 50px;
+       position: absolute;
+       z-index: 2;
+       background-color: rgba(255, 255, 255, 0.5);
+       bottom: 15px;
+   }
+
+   .section2title p {
+       width: 150px;
+       margin-left: 10px;
+       border-bottom: 6px solid #26c7a9;
+       padding-bottom: 5px;
+       font-weight: 600;
+   }
+
+   .section2text {
+       display: inline-block;
+       position: absolute;
+       width: 319px;
+       height: 220px;
+       border: 1px solid #bfb9bf;
+       line-height: 150%;
+       padding-left: 15px;
+       padding-right: 15px;
+       padding-top: 30px;
+       margin-top: 25px;
+       font-size: 14px;
+   }
+
+   .section2text h3 {
+       width: 150px;
+       border-bottom: 6px solid #26c7a9;
+       font-family: 'Ralewaysemibold', Arial, sans-serif;
+   }
+
+   .section2text p {
+       color: #9e9c9e;
+       padding-top: 14px;
+   }
+
+
+
+
+   /*SECTION FOUR */
+   .pricelist {
+       height: 700px;
+       background-color: #f0f0f0;
+   }
+
+   .pricelist h2 {
+       padding-top: 1.5em;
+       width: 300px;
+       border-bottom: 6px solid #26c7a9;
+       padding-bottom: 5px;
+       color: black;
+       text-transform: uppercase;
+   }
+
+   .pricelistItem {
+       width: 320px;
+       height: 500px;
+       margin-top: 40px;
+       border: 2px solid #c2c2c2;
+       position: relative;
+       float: left;
+       margin-left: 50px;
+   }
+
+   .pricelistItemBasic {
+       margin-right: 35px;
+   }
+
+   .pricelistItemAdvance {
+       margin-left: 35px;
+   }
+
+   .pricelistCircle, .pricelistCircle div {
+       border: 2px solid #c2c2c2;
+       border-radius: 50%;
+   }
+
+   .pricelistItemStandard .pricelistCircle, .pricelistItemStandard .pricelistCircle div {
+       border: 2px solid #26c7a9;
+   }
+
+   .pricelistCircle {
+       width: 50px;
+       height: 50px;
+       position: absolute;
+       top: 0%;
+       left: 50%;
+       transform: translate(-50%, -50%);
+       background-color: white;
+   }
+
+   .pricelistCircle div {
+       width: 20px;
+       height: 20px;
+       position: absolute;
+       left: 50%;
+       top: 50%;
+       transform: translate(-50%, -50%);
+       background-color: #c2c2c2;
+   }
+
+   .pricelistItemStandard .pricelistCircle {
+       background-color: #26c7a9;
+   }
+
+   .pricelistItemStandard .priceList-circle div {
+       background-color: white;
+   }
+
+   .pricelistItemBasic, .pricelistItemAdvance {
+       background-color: white;
+   }
+
+   .pricelistItemStandard {
+       background-color: #26c7a9;
+       border: 2px solid #26c7a9;
+   }
+
+   .pricelistItem h3 {
+       text-align: center;
+       font-size: 20px;
+       margin: 40px auto;
+       text-transform: uppercase;
+   }
+
+   .pricelistItemBasic h3, .pricelistItemAdvance h3 {
+       color: #26c7a9;
+   }
+
+   .pricelistItemStandard h3 {
+       color: white;
+   }
+
+   .price {
+       width: 120px;
+       height: 120px;
+       border: 2px solid #c2c2c2;
+       margin-top: 0;
+       border-radius: 50%;
+       position: absolute;
+       top: 30%;
+       left: 50%;
+       transform: translate(-50%, -50%);
+       background-color: white;
+   }
+
+   .pricelistItemStandard .price {
+       border: 2px solid #26c7a9;
+   }
+
+   .priceNumber, .priceNumberStandard {
+       font-size: 40px;
+       margin: .4em 0 .2em;
+       text-align: center;
+       font-weight: bolder;
+   }
+
+   .priceNumber {
+       color: #c2c2c2;
+   }
+
+   .priceNumberStandard {
+       color: #26c7a9;
+   }
+
+   .priceNumber sup, .priceNumberStandard sup {
+       font-size: 15px;
+   }
+
+   .pricePerMonth, .priceMonthStandard {
+       color: #9e9c9e;
+       font-size: 15px;
+       padding-top: 0;
+       margin-top: 0;
+       text-align: center;
+   }
+
+   .pricePerMonth {
+       color: #9e9c9e;
+   }
+
+   .priceMonthStandard {
+       color: #26c7a9;
+   }
+
+   .service {
+       margin-top: 170px;
+   }
+
+   .service p {
+       width: 320px;
+       height: 50px;
+       margin: 0;
+       line-height: 50px;
+       text-align: center;
+       font-size: 24px;
+       color: #a6a4a6;
+   }
+
+   .serviceDark {
+       background-color: #e3e3e3;
+   }
+
+   .serviceGrey {
+       background-color: #f0f0f0;
+   }
+
+   .serviceWhite {
+       background-color: white;
+   }
+
+   .pricelistItem .button {
+       width: 120px;
+       position: absolute;
+       bottom: 1px;
+       left: 50%;
+       background-color: #26c7a9;
+       transform: translate(-50%, -50%);
+       color: white;
+       text-align: center;
+       vertical-align: middle;
+       line-height: 35px;
+       border-radius: 10px;
+   }
+
+   .pricelistItemStandard .button {
+       background-color: white;
+       color: #26c7a9;
+
+   }
+   .contact {
+       clear: both;
+       height: 550px;
+       background-color: white;
+       color: #979899;
+   }
+
+   .contact h2 {
+       margin-top: 0;
+       padding-top: 1.5em;
+       width: 320px;
+       border-bottom: 8px solid #26c7a9;
+       padding-bottom: 5px;
+       color: black;
+   }
+
+   .contactForm {
+       float: left;
+       width: 680px;
+       height: 400px;
+       padding-top: 50px;
+       margin-left: 50px;
+   }
+
+   .contactInput {
+       width: 620px;
+       padding: 10px 0 10px 10px;
+       margin: 10px 0;
+       border: 1px solid #26c7a9;
+       font-size: 40px;
+   }
+
+   textarea {
+       resize: none;
+       height: 200px;
+   }
+
+   .contactSubmit {
+       display: inline-block;
+       width: 340px;
+       height: 400px;
+       padding-top: 50px;
+   }
+
+   .agree {
+       padding-top: 30px;
+       display: inline-block;
+       width: 350px;
+   }
+
+   .imgOk {
+       border: 1px solid #26c7a9;
+       width: 50px;
+       display: inline-block;
+   }
+
+   .agreeText {
+       display: inline-block;
+       width: 280px;
+       padding-top: 12px;
+       padding-left: 10px;
+       font-size: 18px;
+   }
+
+   .button2 {
+       display: inline-block;
+       margin-top: 40px;
+       height: 70px;
+       font-size: 36px;
+       background-color: #26c7a9;
+       font-weight: bold;
+       color: white;
+       text-align: center;
+       border-radius: 10px;
+       line-height: 70px;
+       width: 360px;
+   }
+
+
+   /*footer*/
+
+   footer {
+       clear: both;
+       color: #9e9c9e;
+       height: 600px;
+   }
+
+   .copyright, .iconslogo, .logoFooter {
+       display: inline-block;
+       letter-spacing: 2px;
+       padding-top: 40px;
+   }
+
+   .copyright {
+       width: 600px;
+   }
+
+   .iconslogo {
+       display: inline-block;
+       width: 400px;
+       margin-left: 40px;
+   }
+
+   .icons {
+       display: inline-block;
+       width: 160px;
+   }
+
+   .logoFooter {
+       display: inline-block;
+       width: 130px;
+       padding-left: 100px;
+   }
+
+   .logoFooter b {
+       font-weight: bold;
+   }
+
+
+
